@@ -1,0 +1,3 @@
+recursive-include pretix_fsp_mail/static *
+recursive-include pretix_fsp_mail/templates *
+recursive-include pretix_fsp_mail/locale *
