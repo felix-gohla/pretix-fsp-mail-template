@@ -1,15 +1,14 @@
 from django.apps import AppConfig
 from django.utils.translation import ugettext_lazy
 
-
 class PluginApp(AppConfig):
     name = 'pretix_fsp_mail'
-    verbose_name = 'Mail Vorlage für Musikschule Fröhlich'
+    verbose_name = 'FSP Mail Template'
 
     class PretixPluginMeta:
-        name = ugettext_lazy('Mail Vorlage für Musikschule Fröhlich')
+        name = ugettext_lazy('FSP Mail Template')
         author = 'Felix Gohla'
-        description = ugettext_lazy('Dieses Plugin beinhaltet eine E-Mail Vorlage für den FSP Ticket Shop.')
+        description = ugettext_lazy('Das Plugin beinhaltet eine E-Mail Vorlage für den FSP Ticketshop.')
         visible = True
         version = '1.0.0'
 
