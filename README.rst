@@ -1,7 +1,7 @@
 Mail Vorlage für Musikschule Fröhlich
 ==========================
 
-This is a plugin for `pretix`_. 
+This is a plugin for `pretix`_. It provides an E-Mail template for the design of Musikschule Fröhlich.
 
 Development setup
 -----------------
