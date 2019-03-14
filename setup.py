@@ -25,7 +25,7 @@ cmdclass = {
 
 setup(
     name='pretix_fsp_mail',
-    version='1.0.0',
+    version='0.1.0',
     description='Dieses Plugin beinhaltet eine E-Mail Vorlage für den FSP Ticket Shop.',
     long_description=long_description,
     url='https://gitlab.hpi.de/felix.gohla/pretix_fsp_mail',

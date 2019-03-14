@@ -10,7 +10,7 @@ class PluginApp(AppConfig):
         author = 'Felix Gohla'
         description = ugettext_lazy('Das Plugin beinhaltet eine E-Mail Vorlage für den FSP Ticketshop.')
         visible = True
-        version = '1.0.0'
+        version = '0.1.0'
 
     def ready(self):
         from . import signals  # NOQA
