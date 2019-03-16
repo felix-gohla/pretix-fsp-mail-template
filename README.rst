@@ -1,14 +1,14 @@
-Mail Vorlage für Musikschule Fröhlich
+FSP Mail Template
 ==========================
 
-This is a plugin for `pretix`_. It provides an E-Mail template for the design of Musikschule Fröhlich.
+This is a plugin for `pretix`_. 
 
 Development setup
 -----------------
 
 1. Make sure that you have a working `pretix development setup`_.
 
-2. Clone this repository, eg to ``local/pretix_fsp_mail``.
+2. Clone this repository, eg to ``local/pretix-fsp-mail-template``.
 
 3. Activate the virtual environment you use for pretix development.
 

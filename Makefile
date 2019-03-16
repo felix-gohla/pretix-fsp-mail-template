@@ -1,5 +1,5 @@
 all: localecompile
-LNGS:=`find pretix_fsp_mail/locale/ -mindepth 1 -maxdepth 1 -type d -printf "-l %f "`
+LNGS:=`find pretix_fsp_mail_template/locale/ -mindepth 1 -maxdepth 1 -type d -printf "-l %f "`
 
 localecompile:
 	django-admin compilemessages
